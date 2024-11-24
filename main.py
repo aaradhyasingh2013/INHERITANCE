@@ -1,13 +1,13 @@
-class person(object):
+class bus(object):
     def __init__(self,name):
         self.name= name
     def display(self):
         print(self.name)
-class child(person):
-    def __init__(self, name,salary):
+class bus(object):
+    def __init__(self, name,petrol):
         super().__init__(name)
-        self.salary= salary
-a= child("Kenisha agrawal", 90000000)
+        self.petrol= petrol
+a= ("bus", petrol)
 a.display()
 
             
